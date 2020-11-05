@@ -1,3 +1,4 @@
-d = {"a":2, "c":3}
+a = 10
+b =3
 
-print(len(d))
+print(a/b)
