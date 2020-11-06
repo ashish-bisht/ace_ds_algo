@@ -1,4 +1,3 @@
-a = 10
-b =3
+a = "ashish"
 
-print(a/b)
+print(a[:3] + a[4:])
