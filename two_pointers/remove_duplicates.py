@@ -1,0 +1,16 @@
+def remove_duplicates(arr):
+
+    next_non_duplicate = 1  # as first number is always unique..
+    i = 0
+    while i < len(arr):
+        if arr[next_non_duplicate - 1] != arr[i]:
+            arr[next_non_duplicate] = arr[i]
+            next_non_duplicate += 1
+
+        i += 1
+
+    return next_non_duplicate
+
+
+print(remove_duplicates([2, 3, 3, 3, 6, 9, 9]))
+print(remove_duplicates([2, 2, 2, 11]))
