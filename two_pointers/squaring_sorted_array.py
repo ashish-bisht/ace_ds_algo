@@ -1,3 +1,6 @@
+# Algo ::: Sabse phele ek keft and ek right ppointer rakho, fir highest_square_index ko last index rakho , kyunki max wahi aaega, fir left right check karo and karte raho
+
+
 def make_squares(arr):
     squares = [0 for i in range(len(arr))]
     left = 0
