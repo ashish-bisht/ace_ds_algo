@@ -1,3 +1,4 @@
-a = "ashish"
+s = "ashish"
 
-print(a[:3] + a[4:])
+p = s[1:-1]
+print(print(print(p)))
